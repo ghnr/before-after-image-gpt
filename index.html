@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Image Comparison</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Image Comparison</h1>
+    </header>
+    <main>
+      <form>
+        <div>
+          <label for="image1">Image 1:</label>
+          <input type="file" id="image1-input" name="image1" accept="image/*">
+        </div>
+        <div>
+          <label for="image2">Image 2:</label>
+          <input type="file" id="image2-input" name="image2" accept="image/*">
+        </div>
+      </form>
+      <div id="image-container">
+        <img id="image1-preview" class="image-preview" src="">
+        <img id="image2-preview" class="image-preview" src="">
+        <div id="slider">
+          <div id="slider-handle"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
