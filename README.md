@@ -19,3 +19,7 @@ Create a GitHub Pages website for comparing the before and after of an image usi
 ## Result
 
 ChatGPT satisfied the core requirement of comparing two images overlayed on top of each other with a slider. There were non-functional issues that remained after many iterations: 1) The image container should not be visible until an image has been selected. 2) The slider should be prevented from moving outside the width of the images.
+
+## Demo
+
+![Screenshot](./images/screenshot.png)
